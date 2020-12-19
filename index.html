@@ -3,7 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Rick and Morty</title>
   </head>
-  <body></body>
+  <body>
+    <div class="placeholder-container">
+      <h1
+        id="character-name-placeholder"
+        class="character-name-placeholder"
+      ></h1>
+    </div>
+    <div class="grid">
+      <span class="asset top">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="line"></span>
+      </span>
+      <img class="logo" src="./img/logo.png" width="280" alt="" />
+      <div class="social">
+        <a href="https://www.instagram.com/crespojeison/">
+          <img src="./img/instagram.svg" alt="" />
+        </a>
+        <a href="https://www.facebook.com/jeisoncres/">
+          <img src="./img/facebook.svg" alt="" />
+        </a>
+        <a href="https://twitter.com/crespojeison">
+          <img src="./img/twitter.svg" alt="" />
+        </a>
+      </div>
+      <div class="navigation name">
+        <a href="#">Nombre</a>
+      </div>
+      <div id="character-name-container" class="character-name-container"></div>
+
+      <div
+        id="character-image-container"
+        class="character-image-container"
+      ></div>
+      <div class="navigation about">
+        <a href="#">Sobre</a>
+      </div>
+
+      <div
+        id="character-description-container"
+        class="character-description-container"
+      ></div>
+      <span class="asset bottom">
+        <span class="line"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </span>
+
+      <div></div>
+      <div class="learn-more">
+        <span>Ver Mas</span>
+      </div>
+
+      <div class="arrow" id="load-next"></div>
+    </div>
+    <script type="module" src="./js/app.js"></script>
+  </body>
 </html>
